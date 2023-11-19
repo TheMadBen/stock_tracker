@@ -4,18 +4,22 @@
         <meta charset="UTF-8">
         <title>Stock Price Tracker</title>
         <link rel="stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src='{{ url_for('static', filename='script.js') }}'></script>
-        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
     </head>
     <body>
-        <form id='add_ticker'>
-            <input type='text' id='new_ticker' placeholder='Add Ticker' Required>
-            <button type='submit'>Add</button>
-        </form>
-        <p id='timer'>
-            Next update in <span id='counter'></span> seconds
-        </p>
+        <div class='top-section'>
+            <h1 class='top-title'>Stock Price Tracker</h1>
 
-        <div id='ticker_grid'></div>
+            <form id='add-ticker'>
+                <input type='text' id='new-ticker' placeholder='Add Ticker' Required>
+                <button type='submit'>Add</button>
+            </form>
+            <p class='time' id='timer'>
+                Next update in <span id='counter'></span> seconds
+            </p>
+        </div>
+
+        <div class='bottom-section' id='ticker-grid'></div>
     </body>
 </html>
