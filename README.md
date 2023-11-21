@@ -10,5 +10,5 @@ Then click on the localhost url on port 5000: 127.0.0.1:5000 that shows up in te
 # Usage
 This app only accepts stocks that are entered using their ticker symbol.<br>
 For example, Apple would be aapl and Microsoft would be msft (not case sensitive).<br>
-![alt text](https://github.com/TheMadBen/news_automation/blob/main/news_automation_ss.png)
+![alt text](https://github.com/TheMadBen/stock_tracker/blob/main/stock_ss.png)
 
